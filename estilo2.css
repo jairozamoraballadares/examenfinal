@@ -1,0 +1,327 @@
+body{
+    background-color: rgba(131, 115, 219, 0.801);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+nav{
+    text-align: center;
+}
+.imagen{
+   width: 25%;
+}
+.uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-align: center;
+}
+.dos{
+    display: flex;
+    flex-direction: row;
+}
+#fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#fotodos{
+    width: 33.3%;
+    padding: 10px;
+    position: relative; 
+}
+
+header {
+    padding: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.image{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.social-icons {
+    margin-top: 40px;
+    text-align: center;
+}
+.social-icons a {
+    color: rgb(7, 7, 6);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.social-icons a:hover {
+    color: #dfdada;
+}
+header {
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.video {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+
+/*contactanos*/
+.god {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: linear-gradient(to right, #f1e0c8, #e3c1a1);
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
+}
+.contact-info, .comment-form {
+    width: 45%;
+}
+.contact-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.contact-info td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.fotito {
+    text-align: center;
+    margin-top: 10px;
+}
+.fotito img {
+    width: 400px; 
+    border-radius: 8px;
+}
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.comment-form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.map {
+    text-align: center;
+    margin-top: 20px;
+}
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/*nosotros*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.h {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.n {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.n a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.c {
+    display: grid;
+    grid-template-areas:
+        "title title title"
+        "content content image-right"
+        "images-bottom images-bottom images-bottom";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.st {
+    grid-area: title;
+    background-color: #00274d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+.sc {
+    grid-area: content;
+}
+
+.sc h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.ir {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    padding-left: 20px;
+}
+
+.ir .og {
+    width: 100%; 
+    height: 400px; 
+    border-radius: 8px;
+}
+
+.ib {
+    display: flex;
+    gap: 20px;
+}
+
+.ib img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.f {
+    background-color: #00274d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.f p {
+    margin: 0;
+}
+
+.si {
+    margin-top: 10px;
+}
+
+.si a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
